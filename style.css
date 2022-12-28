@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    
+}
+
+.conteiner{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.varra,
+.lista{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.varra{
+    gap: 150px;
+}
+.lista{
+    gap: 40px;
+}
+.lista li:first-child > a {
+    color: white;
+    font-weight: 600;
+    
+}
+.lista a{
+    font-weight: 600;
+    color: blueviolet;
+    
+}
+
+.carrito{
+    width: 80px;
+}
+.main{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 150px;
+    gap: 250px;
+    
+}
+#section1{
+    margin-top: 30px;
+    padding: 20px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.section1-info h1 {
+    width: 80%;
+    min-width: 800px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(blueviolet,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section1-info p {
+    font-weight: 600;
+    background: -webkit-linear-gradient(blueviolet,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boton{
+   background-color: white;
+   color: blueviolet;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80px;
+   height: 40px;
+   border-radius: 15px; 
+}
+.card{
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    background:linear-gradient(white, blueviolet);
+    
+}
+.NTF{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-info-top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.card-info-top h3{
+    font-weight: 900;
+    font-size: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-info-top span{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    width: 50px;
+    padding: 3px 0px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.boton-de-tarjeta{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-card-creador{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.info-creador{
+    display: flex;
+    flex-direction: column;
+}
+.imagen-usuario{
+    width: 30px;
+    height: 30px;
+}
+.hero-card-precio span{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+.hero-card-precio p{
+    display: flex;
+    justify-content: center;
+}
+
+ 
